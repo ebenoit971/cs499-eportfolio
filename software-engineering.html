@@ -4,7 +4,7 @@
     <title>Software Engineering Artifact</title>
     <style>
         body { font-family: Arial; margin: 40px; line-height: 1.6; }
-        h1, h2 { color: #2c3e50; }
+        h1 { color: #2c3e50; }
     </style>
 </head>
 
@@ -12,39 +12,28 @@
 
 <h1>Software Engineering Artifact</h1>
 
-<h2>Overview</h2>
 <p>
-The artifact selected for this enhancement is a full-stack web application built using Node.js, Express, MongoDB, and Angular. The application, Travlr Getaways, includes both a customer-facing website and an administrative API.
+The artifact selected for this enhancement is a full stack web application built using Node.js, Express, MongoDB, and Angular. The application, Travlr Getaways, was originally developed in a previous course and includes both a customer facing website and an administrative API. The primary focus of this enhancement was the app.js file, which serves as the central configuration point for middleware, routing, authentication, and overall application structure.
 </p>
 
-<h2>Enhancements Made</h2>
 <p>
-I improved the structure and organization of the application by separating concerns into middleware, routing, and database configuration. I also implemented proper error handling, CORS configuration, and improved authentication integration using Passport and JWT.
+I selected this artifact because it demonstrates my ability to design and structure a scalable backend system using industry standard frameworks. This project highlights my skills in middleware configuration, RESTful API development, routing architecture, and authentication using Passport and JSON Web Tokens. These skills are essential for building modern, enterprise level applications that require both performance and maintainability.
 </p>
 
-<h2>Skills Demonstrated</h2>
 <p>
-This artifact demonstrates backend development, RESTful API design, authentication, middleware configuration, and full-stack integration.
+Several enhancements were implemented to improve the quality, structure, and reliability of the application. I reorganized the codebase into clearly defined sections, including database initialization, middleware configuration, routing, and error handling. This improved readability and maintainability while aligning with software engineering best practices. I also refined authentication by correctly initializing Passport after loading database models, ensuring that authentication workflows function reliably across the application. Additionally, I configured Cross Origin Resource Sharing (CORS) to securely allow communication between the Angular frontend and the Express backend, enabling a decoupled architecture.
 </p>
 
-<h2>Security Considerations</h2>
 <p>
-Security improvements include JWT-based authentication, use of environment variables to protect sensitive data, input validation, and structured error handling to reduce vulnerabilities such as unauthorized access and exposed credentials.
+A key area of improvement in this artifact was the integration of secure coding practices. I implemented the use of environment variables through a .env file to store sensitive information such as JWT secret keys, preventing exposure of credentials in the codebase. I also ensured proper error handling and validation to reduce the risk of application crashes and unauthorized access. These decisions demonstrate a security first mindset by addressing potential vulnerabilities such as improper authentication handling, exposed credentials, and insecure API access.
 </p>
 
-<h2>Stakeholder and Business Impact</h2>
 <p>
-These enhancements improve system reliability, scalability, and usability, ensuring that both users and developers can interact with the application efficiently while reducing operational risk.
+From a stakeholder and organizational perspective, these enhancements improve system reliability, security, and usability. A well structured and secure backend ensures that users can interact with the application safely, while developers can maintain and scale the system more efficiently. These improvements support business goals by reducing risk, improving performance, and enabling long term system growth.
 </p>
 
-<h2>Course Outcome Alignment</h2>
 <p>
-This artifact aligns with program outcomes by demonstrating the ability to design scalable computing solutions, apply secure coding practices, and communicate technical decisions effectively.
-</p>
-
-<h2>Reflection</h2>
-<p>
-Through this process, I strengthened my understanding of backend system architecture and learned how middleware, authentication, and API communication work together in a production environment.
+This artifact aligns with key program outcomes by demonstrating the ability to design and evaluate computing solutions using software engineering principles, implement secure coding practices, and communicate technical decisions effectively. Through this process, I strengthened my ability to build scalable backend systems and gained a deeper understanding of how middleware, authentication, and API communication work together in a production environment.
 </p>
 
 </body>
