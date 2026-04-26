@@ -1,26 +1,38 @@
 # Edward Benoit - Computer Science ePortfolio
 
 ## Overview
-This repository contains my professional ePortfolio developed for the CS 499 Computer Science Capstone. The portfolio showcases my growth and technical skills across software engineering, algorithms and data structures, and database systems.
+This repository contains my professional ePortfolio developed for the CS 499 Computer Science Capstone. The portfolio demonstrates my ability to design, develop, and enhance computing solutions across software engineering, algorithms and data structures, and database systems. Each artifact includes detailed narratives explaining enhancements, skills demonstrated, security considerations, and alignment to program outcomes.
 
 ## Live Portfolio
-View my ePortfolio here:
+View my ePortfolio here:  
 https://ebenoit971.github.io/cs499-eportfolio/
 
-## Included Work
-This portfolio highlights three key artifacts:
+## Portfolio Contents
 
-### Software Engineering
-CS465 Full Stack Application demonstrating system design, structure, and maintainability.
+### Professional Self-Assessment
+A comprehensive reflection on my growth, technical skills, collaboration, communication, and security mindset developed throughout the program.
 
-### Algorithms and Data Structures
-CS360 Weight Tracker Project demonstrating data handling and algorithmic problem solving.
+### Code Review
+A recorded video walkthrough explaining my original code, enhancements made, and areas of improvement.
 
-### Databases
-MongoDB Dashboard / CRUD Application demonstrating database integration, CRUD operations, and data visualization.
+### Artifacts
 
-## Code Review
-A video walkthrough explaining my original code, areas for improvement, and implemented enhancements is included in the portfolio.
+**Software Engineering**  
+- Full-stack application using Node.js, Express, MongoDB, and Angular  
+- Demonstrates system design, authentication, and secure coding practices  
+
+**Algorithms and Data Structures**  
+- Mobile application using SQLite  
+- Demonstrates sorting, filtering, and efficient data handling  
+
+**Databases**  
+- MongoDB dashboard application  
+- Demonstrates CRUD operations, data visualization, and user interaction  
+
+## Artifact Repositories
+- CS465 Full Stack Application: https://github.com/ebenoit971/cs465-fullstack  
+- CS360 Weight Tracker Project: https://github.com/ebenoit971/CS360-Weight-Tracker-Project  
+- CS340 CRUD Dashboard: https://github.com/ebenoit971/cs340-crud-dashboard  
 
 ## Author
 Edward Benoit
